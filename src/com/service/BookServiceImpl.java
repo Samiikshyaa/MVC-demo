@@ -23,8 +23,7 @@ public class BookServiceImpl implements BookService {
 
 	@Override
 	public List<Book> getBook() {
-		System.out.println("The books are:  ");
-		return blist;
+		return blist;		
 	}
 
 }
