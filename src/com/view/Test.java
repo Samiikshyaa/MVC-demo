@@ -47,7 +47,6 @@ public class Test {
 					flag = 'n';
 					break;
 			}
-//			System.out.println("Do you want to exit?[y/n] ");
 		}while (flag == 'y');
 
 	}
