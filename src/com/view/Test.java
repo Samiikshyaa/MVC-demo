@@ -45,6 +45,7 @@ public class Test {
 					break;	
 				default:
 					flag = 'n';
+					System.out.println("Bye!");
 					break;
 			}
 		}while (flag == 'y');
@@ -90,13 +91,17 @@ public class Test {
 	
 	static void printing() {
 		System.out.println("The books are:  ");
-		List <Book> books = bs.getBook();	
-		System.out.println(books);
+//		List <Book> books = bs.getBook();	
+//		System.out.println(books);
+		
+		bs.getBook();
 	}
 	
 	static void count() {
-		int i = bs.getBook().size();
-		System.out.println("Total books= "+ i);
+//		int i = bs.getBook().size();
+//		System.out.println("Total books= "+ i);
+		
+		bs.countBooks();
 	}
 	
 }

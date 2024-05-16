@@ -1,10 +1,18 @@
 package com.model;
 
 public class Book {
+	private int boookid;
 	private String name;
 	private String author;
 	private int edition;
 	private String publication;
+	
+	public int getBoookid() {
+		return boookid;
+	}
+	public void setBoookid(int boookid) {
+		this.boookid = boookid;
+	}
 	public String getName() {
 		return name;
 	}
@@ -31,8 +39,8 @@ public class Book {
 	}
 	@Override
 	public String toString() {
-		return "Book [name=" + name + ", author=" + author + ", edition=" + edition + ", publication=" + publication
-				+ "]\n";
+		return "Book [boookid=" + boookid + ", name=" + name + ", author=" + author + ", edition=" + edition
+				+ ", publication=" + publication + "]";
 	}
 	
 	
